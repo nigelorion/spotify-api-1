@@ -9,6 +9,7 @@
     "browser-sync": "^2.18.5",
     "browserify": "^13.1.1",
     "del": "^2.2.2",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
     "gulp-sass": "^3.0.0",

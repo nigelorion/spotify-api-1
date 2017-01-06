@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/app.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Spotify</title>
+  </head>
+  <body>
+   <form class="user__form">
+     <input placeholder="GENRE" type="text" name="genre" id="genre"></input>
+        <p>:):</p>
+        <p id="valence-value"></p>
+      <input type="range" id="inst">
+        <p>BPM:</p>
+        <p id="tempo-value"></p>
+      <input type="range" id="tempo">
+         <button type="submit" name="button">SEARCH</button>
+       </form>
+       <div class="main">
+         <div class="results"></div>
+       </div>
+   </body>
+</html>
